@@ -43,7 +43,7 @@ const App = () => {
 
   return (
     <>
-      <main className="relative lg:w-full min-w-[100vw] w-full bg-black mt-[-2px]">
+      <main className="relative lg:w-full min-w-[100vw] w-full bg-black mt-[-2px] overflow-hidden">
         <section className="lg:w-full w-[inherit] fixed bg-[#0e0a1173] z-50 backdrop-blur-md flex items-center justify-center">
           <Nav />
         </section>
