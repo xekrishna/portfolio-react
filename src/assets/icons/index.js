@@ -1,0 +1,15 @@
+import css from './css.png'
+import html from './html.png'
+import js from './js.png'
+import jsx from './jsx.png'
+import tailwind from './tailwind.png'
+import figma from './figma.png'
+import firebase from './firebase.png'
+import github from './github.png'
+import mongo from './mongodb.png'
+import nextjs from './nextjs.png'
+import ps from './ps.png'
+import py from './py.png'
+import xd from './xd.png'
+
+export {css, html, js, jsx, tailwind, figma, firebase, github, mongo, nextjs, ps, py, xd}
