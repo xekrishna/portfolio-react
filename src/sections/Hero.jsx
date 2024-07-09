@@ -16,11 +16,13 @@ const Hero = () => {
           <span className=" text-gray-00 text-lg p-2">Transforming your ideas into visually stunning web projects. With expertise in web development, UI/UX design, and data handling, I deliver efficient, impactful solutions that inspire.
           </span>
           <ul className="flex flex-col lg:flex-row gap-5 lg:gap-10 items-center min-h-[60px] w-max p-2 ">
-            <button className="flex gap-2 rounded-full border-color-1 border-[2px] min-h-4 min-w-max text-color-1 p-3 hover:bg-color-1 hover:border-transparent hover:text-white transition peer ml-[-40px] lg:ml-0">
-              <span>Download CV</span>
-              <i className='bx bx-download text-lg h-[20px] mt-[-2px]'></i>
-              <span className=""></span>
-            </button>
+            <a href="../assets/RESUME.docx" download>
+                  <button className="flex gap-2 rounded-full border-color-1 border-[2px] min-h-4 min-w-max text-color-1 p-3 hover:bg-color-1 hover:border-transparent hover:text-white transition peer ml-[-40px] lg:ml-0">
+                    <span>Download CV</span>
+                    <i className="bx bx-download text-lg h-[20px] mt-[-2px]"></i>
+                    <span className=""></span>
+                  </button>
+                </a>
             <ul className="flex gap-5">
               <a href="https://twitter.com/mayankbisht69" target="_blank" rel="noopener noreferrer">
                 <button className={classes}>
