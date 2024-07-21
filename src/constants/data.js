@@ -8,11 +8,10 @@ export const statistics = [
 export const recentProjects = [
     { name: 'Xernia' 
         about: 'An Indian Clothing Store', 
-        link: 'https://youtu.be/dQw4w9WgXcQ?si=Nt2JqkWDx-X7ASop',
+        link: 'https://xernia.vercel.app',
         used: [
-            { lang: '#'},
-            { lang: '#'},
-            { lang: '#'},
+            { lang: 'ReactJS'},
+            { lang: 'Tailwind'},
         ], 
         
     },
@@ -37,7 +36,6 @@ export const recentProjects = [
             { lang: 'CSS'},
             { lang: 'JS'},
         ], 
-        
     },
     
     { name: '...', 
