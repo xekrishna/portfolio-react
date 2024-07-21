@@ -6,7 +6,7 @@ export const statistics = [
 ];
 
 export const recentProjects = [
-    { name: 'Xernia' 
+    { name: 'Xernia' ,
         about: 'An Indian Clothing Store', 
         link: 'https://xernia.vercel.app',
         used: [
