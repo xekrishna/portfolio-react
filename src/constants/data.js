@@ -6,6 +6,16 @@ export const statistics = [
 ];
 
 export const recentProjects = [
+    { name: 'Xernia' 
+        about: 'An Indian Clothing Store', 
+        link: 'https://youtu.be/dQw4w9WgXcQ?si=Nt2JqkWDx-X7ASop',
+        used: [
+            { lang: '#'},
+            { lang: '#'},
+            { lang: '#'},
+        ], 
+        
+    },
     {   
         name: 'Vaarta', 
         about: 'An aesthetically pleasing chatting app', 
@@ -29,16 +39,7 @@ export const recentProjects = [
         ], 
         
     },
-    { name: '...', 
-        about: 'Nothing to see here', 
-        link: 'https://youtu.be/dQw4w9WgXcQ?si=Nt2JqkWDx-X7ASop',
-        used: [
-            { lang: '#'},
-            { lang: '#'},
-            { lang: '#'},
-        ], 
-        
-    },
+    
     { name: '...', 
         about: 'Nothing to see here', 
         link: 'https://youtu.be/dQw4w9WgXcQ?si=Nt2JqkWDx-X7ASop',
